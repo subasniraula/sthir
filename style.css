@@ -1,0 +1,60 @@
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image:
+        linear-gradient(to right bottom,
+        rgba(76, 216, 255, 0.8),
+        rgba(30, 108, 217, 0.8)),
+        url('https://upload.wikimedia.org/wikipedia/commons/2/2c/Wikidata_logo_under_construction_sign_wallpaper.svg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.brand-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.brand {
+    font-size: 20px;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 30px;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7.4px;
+}
